@@ -138,7 +138,7 @@ namespace LibSysMan
             MessageBox.Show("Registration successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Optional: Navigate to login or next form
-            // this.Hide();
+            // this.Hide();s
             // var loginForm = new LoginForm();
             // loginForm.Show();
         }
