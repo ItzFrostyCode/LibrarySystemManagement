@@ -43,9 +43,9 @@
             this.SixDigitPinText = new System.Windows.Forms.Label();
             this.ContainerUsername = new System.Windows.Forms.Panel();
             this.StrokeBoxUsername = new System.Windows.Forms.Panel();
+            this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.UsernameText = new System.Windows.Forms.Label();
             this.RegisterBTN = new System.Windows.Forms.Button();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.ContainerOutsideTitle.SuspendLayout();
             this.ContainerInsideTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BackBTN)).BeginInit();
@@ -219,6 +219,20 @@
             this.StrokeBoxUsername.Size = new System.Drawing.Size(450, 72);
             this.StrokeBoxUsername.TabIndex = 1;
             // 
+            // textBoxUsername
+            // 
+            this.textBoxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.textBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxUsername.Font = new System.Drawing.Font("Gadugi", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUsername.ForeColor = System.Drawing.Color.Gray;
+            this.textBoxUsername.Location = new System.Drawing.Point(26, 17);
+            this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.Size = new System.Drawing.Size(400, 39);
+            this.textBoxUsername.TabIndex = 0;
+            this.textBoxUsername.Text = "Enter username";
+            this.textBoxUsername.Enter += new System.EventHandler(this.textBoxUsername_Enter);
+            this.textBoxUsername.Leave += new System.EventHandler(this.textBoxUsername_Leave);
+            // 
             // UsernameText
             // 
             this.UsernameText.AutoSize = true;
@@ -248,20 +262,6 @@
             this.RegisterBTN.Text = "Next";
             this.RegisterBTN.UseVisualStyleBackColor = false;
             this.RegisterBTN.Click += new System.EventHandler(this.RegisterBTN_Click);
-            // 
-            // textBoxUsername
-            // 
-            this.textBoxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
-            this.textBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxUsername.Font = new System.Drawing.Font("Gadugi", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxUsername.Location = new System.Drawing.Point(26, 17);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(400, 39);
-            this.textBoxUsername.TabIndex = 0;
-            this.textBoxUsername.Text = "Enter username";
-            this.textBoxUsername.Enter += new System.EventHandler(this.textBoxUsername_Enter);
-            this.textBoxUsername.Leave += new System.EventHandler(this.textBoxUsername_Leave);
             // 
             // SignupUsersLoginCredentials
             // 
